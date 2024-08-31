@@ -1,0 +1,120 @@
+body {
+  box-sizing: border-box;
+  background-color: #d9eff7;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  color: #131842;
+}
+.container {
+  background-color: #9bbbfc;
+  border-radius: 20px;
+  margin-top: 5%;
+  padding: 10px;
+  width: 600px;
+}
+
+
+.search {
+  border: none;
+  background-color: #d9eff7;
+  border: none;
+  border-radius: 6px;
+  width: 70%;
+  font-size: 16px;
+  padding: 15px 20px;
+ margin: 10px;
+}
+
+.button {
+  background-color: #f9ce69;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+p{
+    font-size: 14px;
+}
+
+a {
+    color: #131842;
+}
+
+
+.weather-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.weather-details {
+    line-height: 0.8;
+    color: #70759b;
+}
+
+#humidity, #wind {
+    color: #131842;
+    font-weight: bold;
+}
+
+.temp {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.temp-icon {
+    position: relative;
+    top: 20px;
+    bottom: 10px;
+     width: 88px;
+  height: 92px;
+  font-weight: bold;
+}
+
+.degree-celcius {
+    font-size: 28px;
+    position: relative;
+    top: -58px;
+}
+
+.forecast-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.day-forecast-date {
+    color: #70759b;
+    text-align: center;
+    line-height: 20px;
+   
+}
+
+.day-forecast-icon {
+    font-size: 38px;
+    text-align: center;
+}
+
+.day-forecast-temp {
+    display: flex;
+    justify-content: center;
+}
+
+.day-forecast-temp-left, .day-forecast-temp-right {
+    padding: 0 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer {
+padding : 20px 0;
+color: #70759b;
+margin-left: 30px;
+}
+
+
