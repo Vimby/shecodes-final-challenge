@@ -14,7 +14,6 @@ body {
   width: 600px;
 }
 
-
 .search {
   border: none;
   background-color: #d9eff7;
@@ -23,7 +22,7 @@ body {
   width: 70%;
   font-size: 16px;
   padding: 15px 20px;
- margin: 10px;
+  margin: 10px;
 }
 
 .button {
@@ -35,30 +34,32 @@ body {
   border-radius: 6px;
 }
 
-p{
-    font-size: 14px;
+p {
+  font-size: 14px;
 }
 
 a {
-    color: #131842;
+  color: #131842;
 }
-
 
 .weather-details-container {
   display: flex;
   justify-content: space-between;
 }
 
-
-
-.weather-details {
-    line-height: 0.8;
-    color: #70759b;
+.text-side {
+  margin-left: 30px;
 }
 
-#humidity, #wind {
-    color: #131842;
-    font-weight: bold;
+.weather-details {
+  line-height: 0.8;
+  color: #70759b;
+}
+
+#humidity,
+#wind {
+  color: #131842;
+  font-weight: bold;
 }
 
 .temp {
@@ -68,52 +69,50 @@ a {
 }
 
 .temp-icon {
-    position: relative;
-    top: 20px;
-    bottom: 10px;
-     width: 88px;
+  position: relative;
+  top: 20px;
+  bottom: 10px;
+  width: 88px;
   height: 92px;
   font-weight: bold;
 }
 
 .degree-celcius {
-    font-size: 28px;
-    position: relative;
-    top: -58px;
+  font-size: 28px;
+  position: relative;
+  top: -58px;
 }
 
 .forecast-wrapper {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
 .day-forecast-date {
-    color: #70759b;
-    text-align: center;
-    line-height: 20px;
-   
+  color: #70759b;
+  text-align: center;
+  line-height: 20px;
 }
 
 .day-forecast-icon {
-    text-align: center;
+  text-align: center;
 }
 
 .day-forecast-temp {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
-.day-forecast-temp-left, .day-forecast-temp-right {
-    padding: 0 10px;
-    font-weight: bold;
-    margin-top: 10px;
+.day-forecast-temp-left,
+.day-forecast-temp-right {
+  padding: 0 10px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .footer {
-padding : 20px 0;
-color: #70759b;
-margin-left: 30px;
+  padding: 20px 0;
+  color: #70759b;
+  margin-left: 30px;
 }
-
-
